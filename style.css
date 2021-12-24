@@ -21,6 +21,14 @@ ul {
     margin: 0 auto;
     margin-top: 50px;
     padding-left: 0px;
+    display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 a {
     font-family: 'Roboto', sans-serif;
@@ -38,13 +46,10 @@ a:hover{
 i {
     margin-right: 10px;
 }
-nav {
-    display: block;
-    width: 70%;
-    margin: 0 auto 30px;
-}
-.nav ul {
+nav{
+    display: flex;
 
+    margin: 0 auto 30px;
 }
 .nav a {
     color: #05435E;
@@ -64,8 +69,8 @@ nav {
 }
 .logo{
     position: absolute;
-    left: 48%;
-    bottom: 93%;
+    left: 46%;
+    bottom: 85%;
 }
 .podpis{
     margin-left: 115px;
