@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 .main{
-    width: 1570px;
     height: 600px;
     background: url("images/backgroud.png");
     display: flex;
@@ -61,16 +60,18 @@ nav{
 }
 .phone{
     font-weight: 500;
+    display: flex;
+    align-items: center;
 }
-
+.phone_img{
+    margin-right: 5px;
+}
 .nav li {
-    display: inline;
-
+    display: flex;
+    align-content: center;
 }
 .logo{
     position: absolute;
-    left: 46%;
-    bottom: 85%;
 }
 .podpis{
     margin-left: 115px;
@@ -151,7 +152,7 @@ h2{
     margin-top: 80px;
 
 }
-.frame2{
+.section1 div{
     background: white;
     border-radius: 50px;
     left: 50px;
@@ -159,62 +160,16 @@ h2{
     padding: 0 50px 35px 50px;
     width: 15%;
 }
-.frame2 button{
-    display: flex;
-    background: #FF6B6B;
-    border-radius: 50px;
-    border-width: 0;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    padding: 10px 40px;
-    align-items: center;
-    font-weight: bold;
-}
-.frame2 p{
+.section1 p{
     font-size: 14px;
     color: #05435E;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
-.frame3{
-    background: white;
-    border-radius: 50px;
-    left: 50px;
-    box-shadow: 0 5px 5px rgba(0, 107, 153, 0.2);
-    padding: 0 50px 35px 50px;
-    width: 15%;
-}
-.frame3 button{
-    display: flex;
-    background: #FF6B6B;
-    border-radius: 50px;
-    border-width: 0;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    padding: 10px 40px;
-    align-items: center;
-    font-weight: bold;
-}
-.frame3 button:hover{
+button:hover{
     background: #008FCC;
 }
-.frame3 p{
-    font-size: 14px;
-    color: #05435E;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-.frame4{
-    background: white;
-    border-radius: 50px;
-    left: 50px;
-    box-shadow: 0 5px 5px rgba(0, 107, 153, 0.2);
-    padding: 0 50px 35px 50px;
-    width: 15%;
-}
-.frame4 button{
+button{
     display: flex;
     background: #FF6B6B;
     border-radius: 50px;
@@ -226,39 +181,6 @@ h2{
     align-items: center;
     font-weight: bold;
 }
-.frame4 p{
-    font-size: 14px;
-    color: #05435E;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-.frame5{
-    background: white;
-    border-radius: 50px;
-    left: 50px;
-    box-shadow: 0 5px 5px rgba(0, 107, 153, 0.2);
-    padding: 0 50px 35px 50px;
-    width: 15%;
-}
-.frame5 button{
-    display: flex;
-    background: #FF6B6B;
-    border-radius: 50px;
-    border-width: 0;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    padding: 10px 40px;
-    align-items: center;
-    font-weight: bold;
-}
-.frame5 p{
-    font-size: 14px;
-    color: #05435E;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-
 .section2{
     margin-top: 40%;
     height: 350px;
@@ -321,8 +243,6 @@ h2{
     padding-left: 0px;
     margin-top: 400px;
     right: 47%;
-    /* padding-right: 200px; */
-    /* margin-right: 200px; */
     position: absolute;
     flex-direction: row;
 }
@@ -438,6 +358,7 @@ h2{
     display: flex;
     align-items: center;
     color: #008FCC;
+    margin-bottom: 3%;
 }
 .section4_email{
     font-family: 'Roboto', sans-serif;
@@ -448,6 +369,12 @@ h2{
     display: flex;
     align-items: center;
     color: #008FCC;
+}
+.section4_phone img{
+    margin-right: 5px;
+}
+.section4_email  img{
+    margin-right: 5px;
 }
 .footer{
     background: url("images/footerBackground.png");
@@ -475,6 +402,9 @@ footer{
     display: flex;
     align-items: center;
     color: white;
+}
+.footerPhone img{
+    margin-right: 5px;
 }
 .footerNav{
     color: white;
