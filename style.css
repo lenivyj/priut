@@ -188,26 +188,15 @@ button{
 .section2{
     margin-top: 40%;
     height: 350px;
+    display: flex;
 }
 .section2 h2{
     margin-top: -5%;
 }
 .photo1{
-    z-index: -1;
-    position: absolute;
-    left: 250px;
-}
-.photo2{
-    z-index: 2;
-    position: absolute;
-    left: 500px;
-    bottom: -102%;
-}
-.photo3{
-    z-index: 2;
-    position: absolute;
-    left: 100px;
-    bottom: -102%;
+    width: 592px;
+    height: 272px;
+    margin-left: 80px;
 }
 .bio{
     position: absolute;
