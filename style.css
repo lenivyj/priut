@@ -46,7 +46,7 @@ ul {
     display: flex;
     margin-left: 0px;
     margin-right: 0px;
-    width: 85%;
+    width: 100%;
     flex-direction: row;
     align-items: flex-start;
     flex-wrap: nowrap;
